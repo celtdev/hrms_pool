@@ -1,9 +1,9 @@
 [project]
-name = "pool_management"
+name = "pool"
 authors = [
     { name = "Sergey Dobrikov", email = "sergey.dobrikov@waveaccess.com"}
 ]
-description = "Pools management system"
+description = "Pools Management System"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

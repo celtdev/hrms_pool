@@ -1,5 +1,5 @@
-app_name = "pool_management"
-app_title = "Pool menegement"
+app_name = "pool"
+app_title = "Pool"
 app_publisher = "Sergey Dobrikov"
 app_description = "Pools management system"
 app_email = "sergey.dobrikov@waveaccess.com"
@@ -10,15 +10,15 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/pool_management/css/pool_management.css"
-# app_include_js = "/assets/pool_management/js/pool_management.js"
+# app_include_css = "/assets/pool/css/pool.css"
+# app_include_js = "/assets/pool/js/pool.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/pool_management/css/pool_management.css"
-# web_include_js = "/assets/pool_management/js/pool_management.js"
+# web_include_css = "/assets/pool/css/pool.css"
+# web_include_js = "/assets/pool/js/pool.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "pool_management/public/scss/website"
+# website_theme_scss = "pool/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -36,7 +36,7 @@ app_license = "mit"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "pool_management/public/icons.svg"
+# app_include_icons = "pool/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -60,43 +60,43 @@ app_license = "mit"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "pool_management.utils.jinja_methods",
-# 	"filters": "pool_management.utils.jinja_filters"
+# 	"methods": "pool.utils.jinja_methods",
+# 	"filters": "pool.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "pool_management.install.before_install"
-# after_install = "pool_management.install.after_install"
+# before_install = "pool.install.before_install"
+# after_install = "pool.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "pool_management.uninstall.before_uninstall"
-# after_uninstall = "pool_management.uninstall.after_uninstall"
+# before_uninstall = "pool.uninstall.before_uninstall"
+# after_uninstall = "pool.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "pool_management.utils.before_app_install"
-# after_app_install = "pool_management.utils.after_app_install"
+# before_app_install = "pool.utils.before_app_install"
+# after_app_install = "pool.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "pool_management.utils.before_app_uninstall"
-# after_app_uninstall = "pool_management.utils.after_app_uninstall"
+# before_app_uninstall = "pool.utils.before_app_uninstall"
+# after_app_uninstall = "pool.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "pool_management.notifications.get_notification_config"
+# notification_config = "pool.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -135,39 +135,39 @@ app_license = "mit"
 
 # scheduler_events = {
 # 	"all": [
-# 		"pool_management.tasks.all"
+# 		"pool.tasks.all"
 # 	],
 # 	"daily": [
-# 		"pool_management.tasks.daily"
+# 		"pool.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"pool_management.tasks.hourly"
+# 		"pool.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"pool_management.tasks.weekly"
+# 		"pool.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"pool_management.tasks.monthly"
+# 		"pool.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "pool_management.install.before_tests"
+# before_tests = "pool.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "pool_management.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "pool.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "pool_management.task.get_dashboard_data"
+# 	"Task": "pool.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -181,13 +181,13 @@ app_license = "mit"
 
 # Request Events
 # ----------------
-# before_request = ["pool_management.utils.before_request"]
-# after_request = ["pool_management.utils.after_request"]
+# before_request = ["pool.utils.before_request"]
+# after_request = ["pool.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["pool_management.utils.before_job"]
-# after_job = ["pool_management.utils.after_job"]
+# before_job = ["pool.utils.before_job"]
+# after_job = ["pool.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -217,7 +217,7 @@ app_license = "mit"
 # --------------------------------
 
 # auth_hooks = [
-# 	"pool_management.auth.validate"
+# 	"pool.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.
