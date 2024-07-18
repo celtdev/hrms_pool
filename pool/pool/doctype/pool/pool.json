@@ -16,7 +16,10 @@
   {
    "fieldname": "pool_name",
    "fieldtype": "Data",
-   "label": "Pool Name"
+   "in_list_view": 1,
+   "label": "Pool Name",
+   "reqd": 1,
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
@@ -25,6 +28,7 @@
  "modified_by": "Administrator",
  "module": "Pool",
  "name": "Pool",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -40,7 +44,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "pool_name"
 }
