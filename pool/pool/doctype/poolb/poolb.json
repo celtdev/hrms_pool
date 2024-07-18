@@ -6,7 +6,9 @@
  "engine": "InnoDB",
  "field_order": [
   "section_break_medt",
-  "asdf"
+  "asdf",
+  "pool",
+  "employee"
  ],
  "fields": [
   {
@@ -17,11 +19,23 @@
    "fieldname": "asdf",
    "fieldtype": "Data",
    "label": "asdf"
+  },
+  {
+   "fieldname": "pool",
+   "fieldtype": "Link",
+   "label": "Pool",
+   "options": "Pool"
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "options": "Employee"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-18 12:12:18.402268",
+ "modified": "2024-07-18 12:16:44.088963",
  "modified_by": "Administrator",
  "module": "Pool",
  "name": "PoolB",
