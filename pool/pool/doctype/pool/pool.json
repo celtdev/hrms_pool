@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:pool_name",
  "creation": "2024-07-18 11:47:36.597218",
  "doctype": "DocType",
  "engine": "InnoDB",
