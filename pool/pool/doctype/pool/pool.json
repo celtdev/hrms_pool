@@ -5,12 +5,18 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_dejr"
+  "section_break_dejr",
+  "pool_name"
  ],
  "fields": [
   {
    "fieldname": "section_break_dejr",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pool_name",
+   "fieldtype": "Data",
+   "label": "Pool Name"
   }
  ],
  "index_web_pages_for_search": 1,
